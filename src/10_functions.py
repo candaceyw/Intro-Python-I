@@ -2,7 +2,14 @@
 
 # YOUR CODE HERE
 
+def even_num(num):
+    if num %2 == 0:
+        return True
+    else: return False
+
 # Read a number from the keyboard
+
+
 num = input("Enter a number: ")
 num = int(num)
 
@@ -10,3 +17,4 @@ num = int(num)
 
 # YOUR CODE HERE
 
+print(even_num(num))
